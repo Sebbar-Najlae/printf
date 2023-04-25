@@ -52,6 +52,8 @@ int print_string(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 int print_percent(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
+//adding r
+int rev(char buffer[], va_list args);
 
 /* Functions to print numbers */
 int print_int(va_list types, char buffer[],
